@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #191825;
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-hero{
+    width: 50%;
+}
+
+.title-hero > h1{
+    color: #FFA3FD;
+    margin: 20px 0 20px 0;
+    font-size: 3em;
+}
+
+.title-hero > h3{
+    color: #46C2CB;
+}
+
+.montserr-font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.raleway-font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.picture-hero{
+    display: flex;
+    align-items: center;
+}
+
+.picture-hero > img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+    -webkit-box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+    -moz-box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+}
+
+.resume-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title-resume{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: #FFA3FD;
+    box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+    -webkit-box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+    -moz-box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+}
+
+.title-resume > h1{
+    font-size: 6vh;
+    text-align: center;
+    color: #191825;
+}
+
+.edu-background{
+    width: 70%;
+    height: fit-content;
+    background-color: #1e1d2c;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0px 50px;
+}
+
+.edu{
+    height: fit-content;
+    /* background-color: white; */
+    display: flex;
+    gap: 30px;
+    margin: 30px 30px 0px 30px;
+}
+
+.edu > div > h1{
+    color: #FFA3FD;
+}
+
+.edu > div > p{
+    color: #46C2CB;
+}
+
+.skills-list{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.skills{
+    width: 300px;
+    height: 300px;
+    background-color: #1e1d2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.skills img{
+    height: 200px;
+}
+
+.projects{
+    width: 70%;
+    height: fit-content;
+    background-color: #1e1d2c;
+    border-radius: 3%;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.projects > img{
+    height: 250px;
+    border-radius: 3%;
+}
+
+.projects > div > h1{
+    color: #FFA3FD;
+}
+
+.projects > div > p{
+    color: #46C2CB;
+}
+
+.footer-section{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #1e1d2c;
+}
+
+.footer-section > div{
+    gap: 500px;
+}
+
+.footer-section div a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #46C2CB;
+}
+
+@media only screen and (max-width: 768px){
+    .hero-section{
+        height: 100vh;
+        background-color: #191825;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .picture-hero > img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+        -webkit-box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+        -moz-box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
+        margin-right: 40px;
+    }
+
+    .title-hero > h1{
+        font-size: 2em;
+    }
+
+    .title-hero > h3{
+        font-size: 1em;
+    }
+
+    .title-resume > h1{
+        font-size: 3vh;
+    }
+
+    .edu > img{
+        height: 40px;
+    }
+
+    .edu > div > h1{
+        font-size: 20px;
+    }
+
+    .edu > div > p{
+        font-size: 14px;
+    }
+
+    .skills{
+        width: 80px;
+        height: 80px;
+    }
+
+    .skills img{
+        height: 50px;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects img{
+        height: 200px;
+        object-fit: contain;
+    }
+}
