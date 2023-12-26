@@ -61,6 +61,7 @@ body{
 .title-resume{
     width: fit-content;
     height: fit-content;
+    margin-top: 70px;
     padding: 10px;
     background-color: #FFA3FD;
     box-shadow: 20px 19px 0px -1px rgba(70,194,203,1);
@@ -109,17 +110,17 @@ body{
 }
 
 .skills{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background-color: #1e1d2c;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 3%;
+    border-radius: 5%;
 }
 
 .skills img{
-    height: 200px;
+    height: 100px;
 }
 
 .projects{
