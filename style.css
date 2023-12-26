@@ -134,7 +134,7 @@ body{
     margin-bottom: 50px;
 }
 
-.projects > img{
+.projects > a > img{
     height: 250px;
     border-radius: 3%;
 }
