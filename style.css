@@ -56,6 +56,23 @@ a{
     margin-top: 70px;
 }
 
+.edu-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.edu-box-list{
+    width: 50%;
+    background-color: #10101071;
+    border-radius: 10PX;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .edu-section{
     background-color: #10101071;
     margin-top: 10px;
