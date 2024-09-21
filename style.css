@@ -122,3 +122,29 @@ a{
     /* background-color: antiquewhite; */
     height: 100%;
 }
+
+.project{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 100px 0px 100px 0px;
+    /* background-color: aliceblue; */
+}
+
+.project-list{
+    background-color: #10101071;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.project-list img{
+    border-radius: 10px;
+}
