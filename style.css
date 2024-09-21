@@ -104,4 +104,10 @@ a{
     max-width: 600px;
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.desc{
+    letter-spacing: 0.5px;
+    height: 30vh;
 }
