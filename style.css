@@ -111,3 +111,14 @@ a{
     letter-spacing: 0.5px;
     height: 30vh;
 }
+
+.socmed{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 100px 0px;
+}
+
+.socmed-list{
+    /* background-color: antiquewhite; */
+    height: 100%;
+}
