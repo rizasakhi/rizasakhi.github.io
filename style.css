@@ -148,3 +148,10 @@ a{
 .project-list img{
     border-radius: 10px;
 }
+
+.tech-stack{
+    display: flex;
+    align-items: center;
+    align-self: start;
+    gap: 20px;
+}
