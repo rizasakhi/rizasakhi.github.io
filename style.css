@@ -40,6 +40,10 @@ a{
     margin: 0px 10px 0px 10px;
 }
 
+a:hover{
+    color: white;
+}
+
 .hero{
     /* background-color: aqua; */
     /* height: 50vh; */
@@ -278,7 +282,7 @@ a{
 }
 
 .fade-in-up {
-    opacity: 0; /* Mulai dengan elemen tidak terlihat */
-    animation: fadeInUp 1s ease-out forwards; /* Durasi animasi dan pergerakan */
-    animation-delay: 0.2s; /* Menambahkan delay jika diinginkan */
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 0.2s;
 }
