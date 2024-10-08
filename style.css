@@ -44,6 +44,23 @@ a:hover{
     color: white;
 }
 
+.btn{
+    font-family: "Karla", sans-serif;
+    background-color: #1e1e1e;
+    border: 1px solid #e0e0e0;
+    color: #e0e0e0;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 1px solid #1e1e1e;
+    background-color: #e0e0e0;
+    color: #1e1e1e;
+}
+
 .hero{
     /* background-color: aqua; */
     /* height: 50vh; */
